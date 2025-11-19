@@ -1,17 +1,31 @@
-# Ignore Visual Studio folder
+# Visual Studio cache
 .vs/
-backend/MasalaStore.Api/.vs/
+*.suo
+*.user
 
-# Ignore bin & obj
+# Build outputs
 bin/
 obj/
+out/
 
-# Ignore logs
+# ASP.NET publish output
+/wwwroot/
+
+# Temp files
+*.swp
 *.log
 
-# Ignore C# user-specific files
-*.user
-*.suo
-
-# Ignore node modules
+# Node modules (for admin-UI)
 node_modules/
+admin-UI/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# React build
+admin-UI/dist/
