@@ -1,0 +1,17 @@
+# Ignore Visual Studio folder
+.vs/
+backend/MasalaStore.Api/.vs/
+
+# Ignore bin & obj
+bin/
+obj/
+
+# Ignore logs
+*.log
+
+# Ignore C# user-specific files
+*.user
+*.suo
+
+# Ignore node modules
+node_modules/
